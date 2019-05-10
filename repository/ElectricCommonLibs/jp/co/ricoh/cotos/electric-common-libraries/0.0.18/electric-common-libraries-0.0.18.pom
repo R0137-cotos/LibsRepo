@@ -136,7 +136,7 @@
     <dependency>
       <groupId>jp.co.ricoh.cotos</groupId>
       <artifactId>common-libraries</artifactId>
-      <version>0.0.240</version>
+      <version>0.0.249</version>
       <scope>compile</scope>
       <exclusions>
         <exclusion>
