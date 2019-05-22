@@ -3,10 +3,10 @@
   <groupId>jp.co.ricoh.cotos</groupId>
   <artifactId>electric-common-libraries</artifactId>
   <versioning>
-    <release>0.0.36</release>
+    <release>0.0.37</release>
     <versions>
-      <version>0.0.36</version>
+      <version>0.0.37</version>
     </versions>
-    <lastUpdated>20190520050644</lastUpdated>
+    <lastUpdated>20190522003541</lastUpdated>
   </versioning>
 </metadata>
