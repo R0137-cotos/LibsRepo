@@ -3,10 +3,10 @@
   <groupId>jp.co.ricoh.cotos</groupId>
   <artifactId>common-libraries</artifactId>
   <versioning>
-    <release>0.0.296</release>
+    <release>0.0.297</release>
     <versions>
-      <version>0.0.296</version>
+      <version>0.0.297</version>
     </versions>
-    <lastUpdated>20191121061446</lastUpdated>
+    <lastUpdated>20191211035949</lastUpdated>
   </versioning>
 </metadata>
