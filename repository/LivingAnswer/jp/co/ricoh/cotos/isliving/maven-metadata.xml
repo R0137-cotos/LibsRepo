@@ -3,10 +3,11 @@
   <groupId>jp.co.ricoh.cotos</groupId>
   <artifactId>isliving</artifactId>
   <versioning>
-    <release>0.0.3</release>
+    <latest>0.0.4</latest>
+    <release>0.0.4</release>
     <versions>
-      <version>0.0.3</version>
+      <version>0.0.4</version>
     </versions>
-    <lastUpdated>20200123103427</lastUpdated>
+    <lastUpdated>20250603043129</lastUpdated>
   </versioning>
 </metadata>
