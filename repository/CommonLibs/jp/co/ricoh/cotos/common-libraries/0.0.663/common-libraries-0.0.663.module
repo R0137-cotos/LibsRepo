@@ -3,7 +3,7 @@
   "component": {
     "group": "jp.co.ricoh.cotos",
     "module": "common-libraries",
-    "version": "0.0.662",
+    "version": "0.0.663",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "common-libraries-0.0.662-plain.jar",
-          "url": "common-libraries-0.0.662-plain.jar",
-          "size": 4125011,
-          "sha512": "3d9336ad2f8e5c2ad0bb28fa0d26e47f2c1bd7bf6f6124d05836901c72d07858a4c5c3561c78e212d514d8f1cf3f8425a37aafcbc2e28b8938713eb7e0977b07",
-          "sha256": "e5b49906edb8020acf7a75e2cf1a18dda1c4ff2ae33acbc9abf4e60c19954cda",
-          "sha1": "03b6341b644d43072257f63768b9c77abebbbadd",
-          "md5": "ed4f08c3fbd9aa14dd4af84f06ff718e"
+          "name": "common-libraries-0.0.663-plain.jar",
+          "url": "common-libraries-0.0.663-plain.jar",
+          "size": 4125120,
+          "sha512": "aa79a99bb98009004ee637c188b6163d640e0d3b6804e7383c3e0a1539c0f19411b8dbc4aca439486b81bd02736705b2ad62fc52405a0803f6b9c05946d22d99",
+          "sha256": "3698620f6331656508517e98dd60051a99411212f64dc2a16928c2cb3b504e68",
+          "sha1": "c6690e59e500710b7551c804e772d726360587aa",
+          "md5": "00dba527e3ef8e80f8ce35a2066e02fa"
         }
       ]
     },
@@ -286,13 +286,13 @@
       ],
       "files": [
         {
-          "name": "common-libraries-0.0.662-plain.jar",
-          "url": "common-libraries-0.0.662-plain.jar",
-          "size": 4125011,
-          "sha512": "3d9336ad2f8e5c2ad0bb28fa0d26e47f2c1bd7bf6f6124d05836901c72d07858a4c5c3561c78e212d514d8f1cf3f8425a37aafcbc2e28b8938713eb7e0977b07",
-          "sha256": "e5b49906edb8020acf7a75e2cf1a18dda1c4ff2ae33acbc9abf4e60c19954cda",
-          "sha1": "03b6341b644d43072257f63768b9c77abebbbadd",
-          "md5": "ed4f08c3fbd9aa14dd4af84f06ff718e"
+          "name": "common-libraries-0.0.663-plain.jar",
+          "url": "common-libraries-0.0.663-plain.jar",
+          "size": 4125120,
+          "sha512": "aa79a99bb98009004ee637c188b6163d640e0d3b6804e7383c3e0a1539c0f19411b8dbc4aca439486b81bd02736705b2ad62fc52405a0803f6b9c05946d22d99",
+          "sha256": "3698620f6331656508517e98dd60051a99411212f64dc2a16928c2cb3b504e68",
+          "sha1": "c6690e59e500710b7551c804e772d726360587aa",
+          "md5": "00dba527e3ef8e80f8ce35a2066e02fa"
         }
       ]
     },
@@ -306,13 +306,13 @@
       },
       "files": [
         {
-          "name": "common-libraries-0.0.662-sources.jar",
-          "url": "common-libraries-0.0.662-sources.jar",
-          "size": 1393766,
-          "sha512": "7748b785708f625e919262aade65572cd6162ff032f20639fe5ff535126029ffa3d664cbf9884356ce215c761c768dfed3a2b9b06592fc9b11289bd0317191a9",
-          "sha256": "69fd9872a175dbdebd0bb3e74f446e7260d614074bea335df28f9d8e854aa0e5",
-          "sha1": "15577b83ecd45454e4810265e45be027f13c8d7c",
-          "md5": "a9371bc9295711d7bb41f756991af75a"
+          "name": "common-libraries-0.0.663-sources.jar",
+          "url": "common-libraries-0.0.663-sources.jar",
+          "size": 1393855,
+          "sha512": "c7b1484d76a345ee537b135782f2b76d509a1395c16aab8d350760482f4f15fd58ed587954badb00b60ea6e9566f6933d4981fd9d6211f22beade3adae76f05e",
+          "sha256": "52d757182ce01754cad71e65b758514130b293326af67a4247a72df1471fa211",
+          "sha1": "b20c825aeea395dbc43a6cdf7f793d8abe273a5b",
+          "md5": "154f96c0fc339e3988c74199df80cd87"
         }
       ]
     }
