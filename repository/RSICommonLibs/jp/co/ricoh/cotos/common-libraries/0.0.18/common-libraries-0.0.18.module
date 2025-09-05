@@ -1,0 +1,222 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.co.ricoh.cotos",
+    "module": "common-libraries",
+    "version": "0.0.18",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "common-libraries-0.0.18-plain.jar",
+          "url": "common-libraries-0.0.18-plain.jar",
+          "size": 178688,
+          "sha512": "8488a1371b92293a58d7aac31a3f108a0f99afeb38d5e1789853569427b72a6d2ec21e87033ce528e978cf9110f2ab5a84de392c1416b258c2e2cc83a4c960dd",
+          "sha256": "55830ad9a8f597ccd38ef00e3191410b27500aaf294b5a64b9b81a3b550b65b5",
+          "sha1": "a87e5bfaa5d9f56a6bded207e8893274f38e6c40",
+          "md5": "e2f4a2609269674ad55b0be84038efcb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-jpa",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-security",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-mail",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "com.github.spullara.mustache.java",
+          "module": "compiler",
+          "version": {
+            "requires": "0.9.14"
+          }
+        },
+        {
+          "group": "commons-beanutils",
+          "module": "commons-beanutils",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-validator",
+          "version": {
+            "requires": "8.0.2.Final"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-csv",
+          "version": {
+            "requires": "2.19.0-rc2"
+          }
+        },
+        {
+          "group": "jp.co.ricoh.cotos",
+          "module": "common-libraries",
+          "version": {
+            "requires": "0.0.669"
+          }
+        },
+        {
+          "group": "com.auth0",
+          "module": "java-jwt",
+          "version": {
+            "requires": "4.5.0"
+          }
+        },
+        {
+          "group": "io.swagger",
+          "module": "swagger-core",
+          "version": {
+            "requires": "1.5.15"
+          }
+        },
+        {
+          "group": "org.apache.axis",
+          "module": "axis",
+          "version": {
+            "requires": "1.4"
+          }
+        },
+        {
+          "group": "wsdl4j",
+          "module": "wsdl4j",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "commons-discovery",
+          "module": "commons-discovery",
+          "version": {
+            "requires": "0.5"
+          }
+        },
+        {
+          "group": "net.bytebuddy",
+          "module": "byte-buddy",
+          "version": {
+            "requires": "1.17.5"
+          }
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-core",
+          "version": {
+            "requires": "6.4.4"
+          }
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-web",
+          "version": {
+            "requires": "6.4.4"
+          }
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-config",
+          "version": {
+            "requires": "6.4.4"
+          }
+        },
+        {
+          "group": "javax.xml.soap",
+          "module": "javax.xml.soap-api",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-devtools",
+          "version": {
+            "requires": "3.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-libraries-0.0.18-plain.jar",
+          "url": "common-libraries-0.0.18-plain.jar",
+          "size": 178688,
+          "sha512": "8488a1371b92293a58d7aac31a3f108a0f99afeb38d5e1789853569427b72a6d2ec21e87033ce528e978cf9110f2ab5a84de392c1416b258c2e2cc83a4c960dd",
+          "sha256": "55830ad9a8f597ccd38ef00e3191410b27500aaf294b5a64b9b81a3b550b65b5",
+          "sha1": "a87e5bfaa5d9f56a6bded207e8893274f38e6c40",
+          "md5": "e2f4a2609269674ad55b0be84038efcb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "common-libraries-0.0.18-sources.jar",
+          "url": "common-libraries-0.0.18-sources.jar",
+          "size": 41649,
+          "sha512": "db715e6d5e527032ee2fbb4d6859f8c216f7d252154862190db276a38119fedd5e8274598600efebe8f0171b1b5c2f95af6f8c698e77bd162fa27366fd0936a7",
+          "sha256": "7e973ec82c8257244eba151b1300226deb3e58728aa0d7265f26ef43b82bfd1c",
+          "sha1": "93dd77176987cdd5479a2b3b975330c2da867b46",
+          "md5": "ab82b75b41a2ccf8f9dadf964de56c13"
+        }
+      ]
+    }
+  ]
+}
