@@ -1,0 +1,327 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.co.ricoh.cotos",
+    "module": "common-libraries",
+    "version": "0.0.701",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "common-libraries-0.0.701-plain.jar",
+          "url": "common-libraries-0.0.701-plain.jar",
+          "size": 4301129,
+          "sha512": "39c9405504a0b9fa6109db54153cf6ce0d6ee42f55f57584a03f0101611adef41b6449fd8e319c54afb700a5a938c587715087e510ae46318b0cc6210a91183f",
+          "sha256": "709c26f1e9665768ee2dbe519503c14e597b9d0ebba653c2d64643513bc5c228",
+          "sha1": "e6dec88f056b952090829146216afc0172d038bd",
+          "md5": "67528eb1f129238e0d64143f037736aa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-data-jpa",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-security",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-mail",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "org.springframework.retry",
+          "module": "spring-retry",
+          "version": {
+            "requires": "2.0.11"
+          }
+        },
+        {
+          "group": "com.github.spullara.mustache.java",
+          "module": "compiler",
+          "version": {
+            "requires": "0.9.14"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-validator",
+          "version": {
+            "requires": "8.0.2.Final"
+          }
+        },
+        {
+          "group": "org.hibernate.orm",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "6.2.5.Final"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.dataformat",
+          "module": "jackson-dataformat-csv",
+          "version": {
+            "requires": "2.9.6"
+          }
+        },
+        {
+          "group": "org.jxls",
+          "module": "jxls",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.jxls",
+          "module": "jxls-poi",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.apache.poi",
+          "module": "poi",
+          "version": {
+            "requires": "3.17"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5"
+          }
+        },
+        {
+          "group": "com.auth0",
+          "module": "java-jwt",
+          "version": {
+            "requires": "4.5.0"
+          }
+        },
+        {
+          "group": "io.springfox",
+          "module": "springfox-swagger2",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "io.springfox",
+          "module": "springfox-swagger-ui",
+          "version": {
+            "requires": "2.8.0"
+          }
+        },
+        {
+          "group": "io.swagger",
+          "module": "swagger-core",
+          "version": {
+            "requires": "1.5.15"
+          }
+        },
+        {
+          "group": "commons-beanutils",
+          "module": "commons-beanutils",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.apache.axis",
+          "module": "axis",
+          "version": {
+            "requires": "1.4"
+          }
+        },
+        {
+          "group": "javax.xml",
+          "module": "jaxrpc-api",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "wsdl4j",
+          "module": "wsdl4j",
+          "version": {
+            "requires": "1.6.3"
+          }
+        },
+        {
+          "group": "commons-discovery",
+          "module": "commons-discovery",
+          "version": {
+            "requires": "0.5"
+          }
+        },
+        {
+          "group": "net.sf.barcode4j",
+          "module": "barcode4j",
+          "version": {
+            "requires": "2.1"
+          }
+        },
+        {
+          "group": "com.ibm.icu",
+          "module": "icu4j",
+          "version": {
+            "requires": "77.1"
+          }
+        },
+        {
+          "group": "net.lingala.zip4j",
+          "module": "zip4j",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "log4j",
+          "module": "log4j",
+          "version": {
+            "requires": "1.2.17"
+          }
+        },
+        {
+          "group": "net.bytebuddy",
+          "module": "byte-buddy",
+          "version": {
+            "requires": "1.17.5"
+          }
+        },
+        {
+          "group": "com.oracle.database.jdbc",
+          "module": "ojdbc8",
+          "version": {
+            "requires": "23.7.0.25.01"
+          }
+        },
+        {
+          "group": "org.openjdk.nashorn",
+          "module": "nashorn-core",
+          "version": {
+            "requires": "15.6"
+          }
+        },
+        {
+          "group": "jakarta.validation",
+          "module": "jakarta.validation-api",
+          "version": {
+            "requires": "3.1.1"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-actuator",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "javax.xml.soap",
+          "module": "javax.xml.soap-api",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-devtools",
+          "version": {
+            "requires": "3.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-libraries-0.0.701-plain.jar",
+          "url": "common-libraries-0.0.701-plain.jar",
+          "size": 4301129,
+          "sha512": "39c9405504a0b9fa6109db54153cf6ce0d6ee42f55f57584a03f0101611adef41b6449fd8e319c54afb700a5a938c587715087e510ae46318b0cc6210a91183f",
+          "sha256": "709c26f1e9665768ee2dbe519503c14e597b9d0ebba653c2d64643513bc5c228",
+          "sha1": "e6dec88f056b952090829146216afc0172d038bd",
+          "md5": "67528eb1f129238e0d64143f037736aa"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "common-libraries-0.0.701-sources.jar",
+          "url": "common-libraries-0.0.701-sources.jar",
+          "size": 1452092,
+          "sha512": "7ac6523cfde9a074f7626ca77e0138832387e5199bff579cbce1007fe364dd339bcd60c4bd9a4de3bd9b97579f60033c25b520cf31d33827c60abc692f77954b",
+          "sha256": "2cdb0b7af0cfb727646175b3403fbd6b2c99311c456043e6d3c4013c96ba19df",
+          "sha1": "aa4c1a447d16118c0be4e7b129583f8559f9c5df",
+          "md5": "e9345c50c0318132e2ed66b983926a1d"
+        }
+      ]
+    }
+  ]
+}
