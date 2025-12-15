@@ -28,10 +28,10 @@
           "name": "rsi-common-libraries-0.0.21-plain.jar",
           "url": "rsi-common-libraries-0.0.21-plain.jar",
           "size": 178833,
-          "sha512": "64b68f3ea36deff8a7dfd58f4022d1628df7198159e0687ba9c272fc8b87cf567185f8bede4e82bc9811aac56342dc6ee163f6ecb78125bb98687aa29e6d2c04",
-          "sha256": "aaca35f8e195329f48adaa8a448fd4e2540c5a7804f1598d80f9f0c20dd908c2",
-          "sha1": "bb7a8a169f3d51ef367a1029611523d444a424b7",
-          "md5": "16a0209fcbe68628bedf4d1a7eeea616"
+          "sha512": "f76d700e480ce0d195479d67c0870ddd58775ec2072c712946b85e0aa6d8050170e3717e7706b6af9ab3086a9a1a0f1137b6511987ce1b5e4670c0bf228bd949",
+          "sha256": "584820803652a962c9d0275d17e930f06224f5528901b93f6e5caaa7727f231a",
+          "sha1": "adec734c06808d0fa19ce59621cf77f63953a60f",
+          "md5": "a92225780b2e2f73a5748d02541e8f5b"
         }
       ]
     },
@@ -191,10 +191,10 @@
           "name": "rsi-common-libraries-0.0.21-plain.jar",
           "url": "rsi-common-libraries-0.0.21-plain.jar",
           "size": 178833,
-          "sha512": "64b68f3ea36deff8a7dfd58f4022d1628df7198159e0687ba9c272fc8b87cf567185f8bede4e82bc9811aac56342dc6ee163f6ecb78125bb98687aa29e6d2c04",
-          "sha256": "aaca35f8e195329f48adaa8a448fd4e2540c5a7804f1598d80f9f0c20dd908c2",
-          "sha1": "bb7a8a169f3d51ef367a1029611523d444a424b7",
-          "md5": "16a0209fcbe68628bedf4d1a7eeea616"
+          "sha512": "f76d700e480ce0d195479d67c0870ddd58775ec2072c712946b85e0aa6d8050170e3717e7706b6af9ab3086a9a1a0f1137b6511987ce1b5e4670c0bf228bd949",
+          "sha256": "584820803652a962c9d0275d17e930f06224f5528901b93f6e5caaa7727f231a",
+          "sha1": "adec734c06808d0fa19ce59621cf77f63953a60f",
+          "md5": "a92225780b2e2f73a5748d02541e8f5b"
         }
       ]
     },
@@ -211,10 +211,10 @@
           "name": "rsi-common-libraries-0.0.21-sources.jar",
           "url": "rsi-common-libraries-0.0.21-sources.jar",
           "size": 41661,
-          "sha512": "d7f5844a1054446799780f3ea266f756b2052583c598a447b431d1608ba030527f657e8e6d336dec5e9c43261a168a00b934dee9213230dd7e5c329b9393ba09",
-          "sha256": "c21e5cc9c9aa305b8faed57a6f36e8cff2dd5e73a4997979c6f40aff2788664b",
-          "sha1": "d44f966f9032d56add7e839a615d6ab5694cdac2",
-          "md5": "22de371a5bcbca371c3ecbd1286f8610"
+          "sha512": "6a04dc8999de0657473986b08f9af6fce5cedc0d985580b476da59f7418db6af7bb87733084cab482cb2b8e8cfe0e9c4fb263fc985b16fa6cbf9c0a8c7c1c1ef",
+          "sha256": "216644c013f8ec4e0a148559afdd7cadb01ef9fc23f566569b9f7cf780a1dbd8",
+          "sha1": "a2375d26b1bac40613e61ae289c0bc413117355f",
+          "md5": "ceb8361512631ad968d5758d608fd80c"
         }
       ]
     }
