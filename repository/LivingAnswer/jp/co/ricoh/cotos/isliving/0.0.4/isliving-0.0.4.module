@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.co.ricoh.cotos",
+    "module": "isliving",
+    "version": "0.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "isliving-0.0.4-plain.jar",
+          "url": "isliving-0.0.4-plain.jar",
+          "size": 2688,
+          "sha512": "9c5c9517c819b684be6bcce3f4ef1a42b162bb78c731e9737e05d0d6329e19dca54763d26609379b9d319538c15c6af7bcc30a24acf679bde8c659bea548a875",
+          "sha256": "06927adc8da6eecee999cc242ca2cb6d61a399101c5f1277f1ac4a85ea829758",
+          "sha1": "7c0ccc4ef10f8f9953b6ff3d0ec211e4ae990c3e",
+          "md5": "7efb2c090d8388eb7e4ea848c4f2468b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-web",
+          "version": {
+            "requires": "3.5.0"
+          }
+        },
+        {
+          "group": "jp.co.ricoh.cotos",
+          "module": "common-libraries",
+          "version": {
+            "requires": "0.0.678"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "isliving-0.0.4-plain.jar",
+          "url": "isliving-0.0.4-plain.jar",
+          "size": 2688,
+          "sha512": "9c5c9517c819b684be6bcce3f4ef1a42b162bb78c731e9737e05d0d6329e19dca54763d26609379b9d319538c15c6af7bcc30a24acf679bde8c659bea548a875",
+          "sha256": "06927adc8da6eecee999cc242ca2cb6d61a399101c5f1277f1ac4a85ea829758",
+          "sha1": "7c0ccc4ef10f8f9953b6ff3d0ec211e4ae990c3e",
+          "md5": "7efb2c090d8388eb7e4ea848c4f2468b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "isliving-0.0.4-sources.jar",
+          "url": "isliving-0.0.4-sources.jar",
+          "size": 2101,
+          "sha512": "845a3c85ac3ac6b68d93724691387a4bff6142f6a9d262cd88ff2eec325fdfbce9e8464c3b389758a12a046c47d561bd7f66ae41d414d73358cd42ed50dca27b",
+          "sha256": "e627141be742bd594aa86cebc83466453a8b04b782863c3019f913e1f485a412",
+          "sha1": "366972ea8eb0c96888a79b48d1618b59d92c8276",
+          "md5": "f18bf15e3bdec50970089af1bcd6ee37"
+        }
+      ]
+    }
+  ]
+}
